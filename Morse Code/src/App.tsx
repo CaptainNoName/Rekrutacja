@@ -42,8 +42,6 @@ const MorseCodeApp = () => {
     useEffect(() => {
         if (morseCode) {
             letterTimeout.current = setTimeout(() => {
-                console.log('LETTER TIMEOUT');
-
                 const letter = MORSE_CODE[morseCode];
                 if (letter) setMessage(v => v + letter);
                 setMorseCode('');
@@ -53,7 +51,6 @@ const MorseCodeApp = () => {
 
     useEffect(() => {
         if (morseCode) {
-            console.log('SPACE TIMEOUT');
             spaceTimeout.current = setTimeout(() => {
                 setMessage(v => v + ' ');
                 setMorseCode('');
