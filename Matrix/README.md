@@ -14,4 +14,4 @@
 ## Uruchomienie
 
 -   npm install
--   npm run start
+-   npm run dev
