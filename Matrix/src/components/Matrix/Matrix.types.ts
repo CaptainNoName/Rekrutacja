@@ -4,7 +4,7 @@ export type RowType = number[];
 
 export type MatrixType = {
     matrix: Matrix;
-    setMatrix: (val: Matrix) => void;
+    setMatrix: React.Dispatch<React.SetStateAction<Matrix>>;
 };
 
 export type ChangeProps = {
