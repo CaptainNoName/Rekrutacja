@@ -1,0 +1,6 @@
+.button {
+    width: 2rem;
+    aspect-ratio: 1/1;
+    font-weight: 500;
+    cursor: pointer;
+}

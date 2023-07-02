@@ -1,0 +1,13 @@
+.matrix {
+    margin: 1rem auto;
+    width: max-content;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.sum {
+    margin-left: 0.5rem;
+}
